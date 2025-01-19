@@ -1,4 +1,4 @@
-module github.com/brianmatzelle/go-colors
+module github.com/brianmatzelle/colors
 
 go 1.23.5
 
