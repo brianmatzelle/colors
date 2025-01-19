@@ -20,7 +20,7 @@ func UserF(text string) string {
 	return Colorize(text, Blue)
 }
 
-func BotF(text string, color int) string {
+func ModF(text string, color int) string {
 	color = color + 1
 	mod := color % 256
 	return CustomColorF("["+text+"]", mod)
